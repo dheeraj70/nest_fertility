@@ -1,0 +1,56 @@
+
+.reviews{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.citem{
+    height: 250px;
+    width: 250px;
+    background-color: aqua
+}
+.badge{
+    height: 125px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.badgeImg{
+    height: 75%;
+    border-radius: 100%;
+    aspect-ratio: 1;
+
+}
+.badgeImgDiv{
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+}
+.badgeDetail{
+    display: flex;
+    align-items: center;
+}
+.bD-l{
+    display: flex;
+    flex-direction: column;
+}
+.bD-r{
+    padding-left: 20px;
+}
+.bD-text{
+    display: flex;
+    margin: 0px;
+}
+.badgeBtn{
+    height: 40px;
+    width: 100px
+}

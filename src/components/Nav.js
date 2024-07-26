@@ -17,7 +17,7 @@ export default function Nav() {
 
     
   return (
-    <nav className="nav" style={NavColor?{backgroundColor: 'rgb(205, 240, 234,0.7)'}:{backgroundColor: 'rgb(236, 197, 251,0)'}}>
+    <nav className="nav" style={NavColor?{backgroundColor: 'rgb(255,255,255, 1)'}:{backgroundColor: 'rgb(236, 197, 251,0)'}}>
         <div className="nav_logo">
             <img className='nav_logo_img' src="/nest_lin.png" alt="Nest Fertility and IVF" />
         </div>

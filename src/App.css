@@ -2,9 +2,11 @@
     --nav-font-size: 21px;
     --nav-font-weight: 500;
   }
-
+body{
+  background-color: #f1d9fc;
+}
 *{
     
     font-family: "Jost", sans-serif;
-    
+ 
 }

@@ -1,0 +1,34 @@
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about_head{
+    padding-top: 9vh;
+    padding-bottom: 5vh;
+
+}
+.about_details{
+    display: flex;
+}
+.about_left_detail{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.about_left_text{
+    margin: 0px;
+}
+.about_right_detail{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 3vw;
+}
+.doctor_pic{
+    width: 30vw;
+    aspect-ratio: 1;
+}

@@ -1,7 +1,44 @@
 .hero{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f1d9fc;
     width: 100%;
-    height: 110vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+
+    display: flex;
+    padding-top: 110px;
+    box-sizing: border-box;
+}
+.left_hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    color: #2c1626;
+}
+.left_hero_sub{
+    display: flex;
+}
+.right_hero{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.hero_img{
+    width: 25vw;
+}
+.hero_head{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero_btn{
+    width: 45%;
+    height: 80px;
+}
+.hero_under_text{
+    font-size: 18px;
+
+    margin: 0px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
