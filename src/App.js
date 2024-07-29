@@ -17,6 +17,7 @@ function App() {
     <Stats />
     <About />
     <Reviews />
+    <div className="floatingWhatsApp" onClick={()=>{window.open("https://wa.me/7799001120")}}>Chat with us<i class="fa-brands fa-whatsapp"></i></div>
     </>
   );
 }

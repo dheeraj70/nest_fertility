@@ -30,5 +30,61 @@
 }
 .doctor_pic{
     width: 30vw;
-    aspect-ratio: 1;
+    height: auto;
+}
+.docName{
+    font-size: 45px;
+}
+.readmore{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+@media screen and (max-device-width: 480px) {
+
+    .about{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about_head{
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+    
+    }
+    .about_details{
+        flex-direction: column;
+    }
+    .about_right_detail{
+
+        justify-content: center;
+        padding-bottom: 2vh;
+
+    }
+    .doctor_pic{
+        width: 75vw;
+
+    }
+    .about_left_detail{
+        
+        align-items: center;
+        
+    }
+    .about_left_text{
+        margin: 0px;
+    }
+    .docNameHead{
+        font-size: 23px;
+    }
+    .docName{
+        font-size: 35px;
+        text-align: center;
+    }
+    .docDesign{
+        padding-top: 3vw;
+        text-align: center;
+    }
+    .docDesc{
+        padding-top: 3vw;
+        font-size: 1.3rem;
+    }
 }

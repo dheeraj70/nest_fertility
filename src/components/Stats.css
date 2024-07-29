@@ -49,3 +49,48 @@
     position: relative;
     bottom: 10px;
 }
+@media screen and (max-device-width: 480px) {
+
+    .stats{
+        padding-top: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .stats_head{
+        
+        font-size: 35px;
+    }
+    .stat{
+        width: 10rem;
+        aspect-ratio: 1;
+        background-color: #532a48;
+        color: white;
+        border-radius: 100%;
+        border: #532a48 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .statHead{
+        margin: 0px;
+        font-size: 2.4rem;
+    }
+    .statUnder{
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+    .statList{
+        width: 100%;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .statLists{
+        padding-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+    
+        gap: 8vw;
+        margin-bottom: 33px;
+    }
+}
