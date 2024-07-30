@@ -2,6 +2,10 @@
     --nav-font-size: 21px;
     --nav-font-weight: 500;
   }
+
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #f1d9fc;
 }
@@ -9,4 +13,47 @@ body{
     
     font-family: "Jost", sans-serif;
  
+}
+
+.floatingArrow{
+  position: fixed;
+  bottom: 90px;
+  right: -45px;
+  background-color: rgba(96, 24, 89, 0.541);
+  height: 45px;
+  width: 45px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.884);
+  text-align: center;
+  cursor: pointer;
+  transition: right 0.3s linear;
+
+}
+.showFloatingArrow{
+  right: 0px;
+}
+
+.floatingWhatsApp{
+  display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+  .floatingWhatsApp{
+        
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #7b3d6a;
+    height: 45px;
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 20px;
+  }
 }
