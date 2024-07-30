@@ -23,7 +23,7 @@ export default function Footer() {
                 Address :
             </div>
             <div className="f1DetailValue">
-                123-31-23434, Vattepally, Madeena Guda, Gahhre lane, Cannu Road - 3000422
+            1st floor, krishna lila plaza, Viswaswara Nagar Colony, Shanti Nagar Colony, Madeenaguda, Hyderabad, Telangana 500049
             </div>
             <div className="f1DetailName">
             <i class="fa-solid fa-envelope"></i> :
