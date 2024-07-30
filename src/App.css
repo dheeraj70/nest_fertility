@@ -20,15 +20,15 @@ body{
   bottom: 90px;
   right: -45px;
   background-color: rgba(96, 24, 89, 0.541);
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 32px;
+  font-size: 28px;
   color: rgba(255, 255, 255, 0.884);
   text-align: center;
   cursor: pointer;
-  transition: right 0.3s linear;
+  transition: right 0.15s linear;
 
 }
 .showFloatingArrow{
@@ -36,6 +36,9 @@ body{
 }
 
 .floatingWhatsApp{
+  display: none;
+}
+.floatingCall{
   display: none;
 }
 
@@ -54,6 +57,68 @@ body{
     gap: 10px;
     align-items: center;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 1rem;
+  }
+  .floatingCall{
+    position: fixed;
+    bottom: 40%;
+    right: -1rem;
+    background-color: #7b3d6a;
+    height: 45px;
+    width: 15%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1rem;
+  }
+
+
+  .floatingArrow{
+    bottom: 150px;
+  }
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+  .floatingWhatsApp{
+        
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #7b3d6a;
+    height: 45px;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1.5rem;
+  }
+  .floatingCall{
+    position: fixed;
+    bottom: 40%;
+    right: -40px;
+    background-color: #7b3d6a;
+    height: 45px;
+    width: 15%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 1rem;
+  }
+
+
+  .floatingArrow{
+    bottom: 150px;
   }
 }

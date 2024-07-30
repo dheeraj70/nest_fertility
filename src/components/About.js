@@ -23,9 +23,9 @@ export default function About() {
           <h3 className="about_left_text docDesign">
             DGO, MBBS
             <br />
-            Gynecologist,Obstetrician,Reproductive Endocrinologist (Infertility)
+            Gynecologist,Obstetrician <br /> Reproductive Endocrinologist (Infertility)
           </h3>
-          <p style={{ marginTop: "10px" }} className="about_left_text docDesc">
+          <p className="about_left_text docDesc">
             Dr. Shravani Pulluri, Best Gynecologist and Obstetrician in
             Hyderabad has an immense experience in these fields. She completed
             DGO from Rajiv Gandhi University of Health Sciences, Bangalore,

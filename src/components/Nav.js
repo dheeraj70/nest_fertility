@@ -39,7 +39,7 @@ export default function Nav() {
       <div className="nav_logo">
         <img
           className="nav_logo_img"
-          src="/nest_lin.png"
+          src="/dark_nest.svg"
           alt="Nest Fertility and IVF"
         />
       </div>
@@ -67,7 +67,7 @@ export default function Nav() {
       </button>
       <div className="nav_btns">
         <button className="nav_btn" onClick={bookAppointment}>Book Appoitment</button>
-        <button className="nav_btn" onClick={()=>{window.open("tel:5551234567")}}>Call Us</button>
+        <button className="nav_btn" onClick={()=>{window.open("tel:7799001120")}}>Call Us</button>
       </div>
 
       

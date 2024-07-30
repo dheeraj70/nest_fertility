@@ -15,14 +15,14 @@
 .statLists{
     padding-top: 10vh;
     display: flex;
-    flex-wrap: wrap;
-
-    gap: 8vw;
+    justify-content: center;
     margin-bottom: 33px;
 }
 .statList{
     display: flex;
-    gap: 8vw;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 1800px;
 }
 .stat{
     width: 200px;
@@ -49,7 +49,23 @@
     position: relative;
     bottom: 10px;
 }
+.youtubeEmbedDiv{
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.youtubeEmbed{
+    width: 711px;
+    aspect-ratio: 1.77;
+}
+.statListMob{
+    display: none;
+}
 @media screen and (max-device-width: 480px) {
+    .statListMob{
+        display: flex;
+    }
 
     .stats{
         padding-top: 5vh;
@@ -92,5 +108,76 @@
     
         gap: 8vw;
         margin-bottom: 33px;
+    }
+    .youtubeEmbed{
+        width: 355.5px;
+        
+    }
+    .youtubeEmbedDiv{
+        padding-top: 1vh;
+    }
+    .statDesktop{
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .statListMob{
+        display: flex;
+    }
+
+    .stats{
+        padding-top: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .stats_head{
+        
+        font-size: 35px;
+    }
+    .stat{
+        width: 10rem;
+        aspect-ratio: 1;
+        background-color: #532a48;
+        color: white;
+        border-radius: 100%;
+        border: #532a48 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .statHead{
+        margin: 0px;
+        font-size: 2.4rem;
+    }
+    .statUnder{
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+    .statList{
+        
+        max-width: 65%;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .statLists{
+        padding-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+    
+        gap: 8vw;
+        margin-bottom: 33px;
+    }
+    .youtubeEmbed{
+        width: 600px;
+        padding-top: 0px;
+    }
+    .youtubeEmbedDiv{
+        padding-top: 3vh;
+    }
+    .statDesktop{
+        display: none;
     }
 }

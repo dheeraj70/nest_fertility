@@ -1,0 +1,193 @@
+.book{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 9vh;
+    background-color: #5a1247;
+}
+.bookHead{
+    color: white;
+    font-size: 50px;
+    padding-top: 9vh;
+    text-align: center;
+}
+.bookSub{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.bookDetails{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    height: 8rem;
+}
+.bookPhones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: end;
+    justify-content: center;
+    gap: 7px;
+}
+.bookPhone{
+    margin: 0px;
+}
+.bookWhatsApp{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.bookWhatsAppHead{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.bookDetailsDivider{
+    background-color: aliceblue;
+    height: inherit;
+    width: 1px;
+}
+.bookDetailsBtn{
+    
+    color: #5a1247;
+    font-size: 21px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-device-width: 480px) {
+    .book{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5vh;
+    }
+    .bookHead{
+        font-size: 30px;
+        padding-top: 5vh;
+        margin-top: 0px;
+    }
+    .bookSub{
+        font-size: 18px;
+    }
+    .bookDetails{
+       flex-direction: row-reverse;
+        height: 14rem;
+    }
+    .bookPhones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: start;
+        justify-content: center;
+        gap: 7px;
+    }
+    .bookPhone{
+        margin: 0px;
+        font-size: 17px;
+    }
+    .bookWhatsApp{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 10px;
+    }
+    .bookWhatsAppHead{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        text-align: end;
+    }
+    .bookDetailsDivider{
+        background-color: aliceblue;
+        height: inherit;
+        width: 3px;
+    }
+    .bookDetailsBtn{
+        
+        color: #5a1247;
+        font-size: 17px;
+        padding: 10px;
+        
+        width: fit-content;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px){
+    .book{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5vh;
+    }
+    .bookHead{
+        font-size: 30px;
+        padding-top: 5vh;
+        margin-top: 0px;
+    }
+    .bookSub{
+        font-size: 18px;
+    }
+    .bookDetails{
+        flex-direction: row-reverse;
+        height: 9rem;
+    }
+    .bookPhones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: start;
+        justify-content: center;
+        gap: 7px;
+    }
+    .bookPhone{
+        margin: 0px;
+        font-size: 17px;
+    }
+    .bookWhatsApp{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 10px;
+    }
+    .bookWhatsAppHead{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        text-align: end;
+    }
+    .bookDetailsDivider{
+        background-color: aliceblue;
+        height: inherit;
+        width: 3px;
+    }
+    .bookDetailsBtn{
+        
+        color: #5a1247;
+        font-size: 17px;
+        padding: 10px;
+        
+        width: fit-content;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -24,7 +24,7 @@
     text-align: center;
 }
 .hero_img{
-    width: 25vw;
+    width: 24rem;
 }
 .hero_head{
     font-size: 50px;
@@ -62,7 +62,7 @@
     }
     .hero_mob_img_visible{
         display: inline;
-        height: 35vh;
+        height: 18rem;
         width: auto;
     }
     .hero_img_mob_div{
@@ -88,6 +88,57 @@
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 35px;
+    }
+    .left_hero{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .right_hero{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+
+    .hero{
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column-reverse;
+    }
+    .hero_img_visible{
+        display: none;
+        
+    }
+    .hero_mob_img_visible{
+        display: inline;
+        height: 23rem;
+        width: auto;
+    }
+    .hero_img_mob_div{
+        display: block;
+        text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .left_hero_sub{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .hero_btn{
+        width: 60%;
+        height: 50px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_head{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 40px;
     }
     .left_hero{
         margin-top: 0px;

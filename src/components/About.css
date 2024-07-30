@@ -80,11 +80,61 @@
         text-align: center;
     }
     .docDesign{
-        padding-top: 3vw;
+        padding-top: 7px;
         text-align: center;
     }
     .docDesc{
-        padding-top: 3vw;
+        padding-top: 7px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+
+    .about{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about_head{
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+    
+    }
+    .about_details{
+        flex-direction: column;
+    }
+    .about_right_detail{
+
+        justify-content: center;
+        padding-bottom: 2vh;
+
+    }
+    .doctor_pic{
+        width: 60vw;
+
+    }
+    .about_left_detail{
+        
+        align-items: center;
+        
+    }
+    .about_left_text{
+        margin: 0px;
+    }
+    .docNameHead{
+        font-size: 23px;
+    }
+    .docName{
+        font-size: 35px;
+        text-align: center;
+    }
+    .docDesign{
+        padding-top: 7px;
+        text-align: center;
+    }
+    .docDesc{
+        padding-top: 7px;
         font-size: 1.3rem;
     }
 }

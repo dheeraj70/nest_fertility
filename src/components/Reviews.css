@@ -173,3 +173,77 @@
         
     }
 }
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .bD-l{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .badgeImg{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100%;
+        aspect-ratio: 1;
+        border: 3px solid white;
+        box-shadow: -2px 3px 6px #00000038;
+    }
+    .reviews{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .badgeDetail{
+        display: flex;
+        align-items:start;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .ratingStarsDiv{
+        display: flex;
+    }
+    .mobBadgeBtn{
+        display: none;
+        width: 8rem;
+    }
+    .NotMobBadgeBtn{
+        
+        display: inline;
+        width: 8rem;
+    }
+    .fa-google {
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+      }
+    .googleBack{
+        display: inline-flex;
+        background-color: #ffffff;
+        width: 25px;
+        height: 25px;
+        align-items:center ;
+        justify-content: center;
+        border-radius: 100%;
+    }
+    .rating{
+        font-weight: 400;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+    }
+    .ratingStars{
+        font-size: 15px;
+        color: #f8b90c;
+    }
+    .bD-name{
+        font-weight: 500;
+        font-size: 21px;
+    }
+    .bD-r{
+        padding-left: 0px;
+        
+    }
+}

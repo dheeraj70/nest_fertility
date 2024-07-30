@@ -8,6 +8,8 @@ import Stats from './components/Stats'
 import About from './components/About';
 import Reviews from './components/Reviews';
 import { useState ,useEffect, useRef} from 'react';
+import Book from './components/Book';
+import Footer from './components/Footer';
 
 //import Container from './components/Container';
 function App() {
@@ -40,8 +42,11 @@ function App() {
     <Stats />
     <About />
     <Reviews />
-    <div className="floatingWhatsApp" onClick={()=>{window.open("https://wa.me/7799001120")}}>Chat with us<i class="fa-brands fa-whatsapp"></i></div>
+    <Book />
+    <Footer />
+    <div className="floatingWhatsApp" onClick={()=>{window.open("https://wa.me/7799001120")}}>Chat with us<i style={{fontSize: "25px"}} class="fa-brands fa-whatsapp"></i></div>
     <div ref={floatingArrow} className="floatingArrow" onClick={()=>{window.location.href = "#emptyTop"}}><i class="fa-solid fa-arrow-up"></i></div>
+    <div className="floatingCall" onClick={()=>{window.open("tel:+917799001120")}}><i style={{fontSize: "17px"}} class="fa-solid fa-phone"></i></div>
 
     </>
   );
