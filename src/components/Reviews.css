@@ -13,6 +13,7 @@
 .badge{
     margin-left: 7.5px;
     margin-right: 7.5px;
+    
     height: 125px;
     width: calc(100% - 15px);
     background-color: #ffffff;
@@ -34,7 +35,7 @@
 
 }
 .badgeImgDiv{
-
+    
         height: 100%;
         display: flex;
         align-items: center;
@@ -102,6 +103,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .badge{
+        height: 145px;
+        min-height: 135px;
+    }
     .bD-l{
         display: flex;
         flex-direction: column;
@@ -124,6 +129,7 @@
         align-items:start;
         flex-direction: column;
         gap: 5px;
+        
     }
     .ratingStarsDiv{
         display: flex;

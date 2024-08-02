@@ -5,7 +5,7 @@ export default function Book() {
   return (
     <div className='book' >
         
-        <h1 className='bookHead'>Begin your path to parenthood today.</h1>
+        <h2 className='bookHead'>Begin your path to parenthood today.</h2>
         <p className="bookSub">Ready to take the next step? Schedule your appointment at Nest Fertility today.</p>
     
         <div className="bookDetails">

@@ -41,7 +41,7 @@
 .statHead{
     margin: 0px;
     font-size: calc(100% + 1.5vw);
-    
+    font-weight: bold;
 }
 .statUnder{
     margin: 0px;

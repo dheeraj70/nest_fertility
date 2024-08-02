@@ -18,7 +18,7 @@ export default function Stats() {
 
   return (
     <div className="stats">
-      <h1 className="stats_head">Why Nest Fertility & IVF?</h1>
+      <h2 className="stats_head">Why Nest Fertility & IVF?</h2>
       <div className="youtubeEmbedDiv">
         <iframe
           className="youtubeEmbed"
@@ -35,13 +35,13 @@ export default function Stats() {
       <div className="statLists">
         <div className="statList">
           <div className="stat">
-            <h1 className="statHead">{SuccessRate}%</h1>
+            <p className="statHead">{SuccessRate}%</p>
             <p className="statUnder">Success Rate</p>
           </div>
           <div className="stat">
-            <h1 className="statHead" ref={statRef}>
+            <p className="statHead" ref={statRef}>
               {Math.floor(SuccessRate / 7)}+ Yrs
-            </h1>
+            </p>
             <p className="statUnder">Experience</p>
           </div>
           <div className="stat statDesktop">

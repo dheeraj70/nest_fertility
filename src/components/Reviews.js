@@ -6,7 +6,7 @@ import "./Reviews.css";
 export default function Reviews() {
   return (
     <div className="reviews">
-      <h1 id="testimonials" className="stats_head about_head">What People say about us.</h1>
+      <h2 id="testimonials" className="stats_head about_head">What People say about us.</h2>
       <div className="googleReviews">
         <div className="badge">
           <div className="badgeImgDiv">
