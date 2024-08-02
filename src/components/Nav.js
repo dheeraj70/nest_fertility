@@ -50,7 +50,7 @@ export default function Nav() {
         <a className="nav_link" href="Treatments">
           Treatments
         </a>
-        <a className="nav_link" href="#testimonials" onClick={()=>{(window.matchMedia("(max-width: 480px)").matches)&&burgerPressed()}}>
+        <a className="nav_link" href="#testimonials" onClick={()=>{(window.matchMedia("(max-width: 768px)").matches)&&burgerPressed()}}>
           Testimonials
         </a>
         <a className="nav_link nav_link_bottom" href="Blog">

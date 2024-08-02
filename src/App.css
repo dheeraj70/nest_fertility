@@ -8,6 +8,7 @@ html{
 }
 body{
   background-color: #f1d9fc;
+ 
 }
 *{
     
@@ -42,7 +43,7 @@ body{
   display: none;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 768px) {
   .floatingWhatsApp{
         
     position: fixed;
@@ -82,8 +83,8 @@ body{
   }
 }
 
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
   .floatingWhatsApp{
         
     position: fixed;

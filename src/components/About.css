@@ -29,6 +29,8 @@
     right: 3vw;
 }
 .doctor_pic{
+    min-width: 340px;
+    max-width: 700px;
     width: 30vw;
     height: auto;
 }
@@ -40,7 +42,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .about{
         padding-left: 5%;
@@ -62,7 +64,7 @@
     }
     .doctor_pic{
         width: 75vw;
-
+        min-width: 0px;
     }
     .about_left_detail{
         
@@ -89,8 +91,8 @@
     }
 }
 
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
 
     .about{
         padding-left: 5%;

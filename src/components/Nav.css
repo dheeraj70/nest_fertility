@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 15px;
 }
 .nav_link{
     text-decoration: none;
@@ -71,7 +72,7 @@
 }
 
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 768px) {
     .nav{
         padding-left: 10px;
         padding-right: 10px;
@@ -162,8 +163,8 @@
 
 }
 
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
     .nav{
         padding-left: 10px;
         padding-right: 10px;

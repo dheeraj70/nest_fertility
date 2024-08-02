@@ -63,7 +63,7 @@
     border: none;
     cursor: pointer;
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 768px) {
     .book{
         padding-left: 5%;
         padding-right: 5%;
@@ -127,8 +127,8 @@
     }
 }
 
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px){
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px){
     .book{
         padding-left: 5%;
         padding-right: 5%;

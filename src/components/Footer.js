@@ -58,7 +58,7 @@ steverogers@gmail.com            </div>
 
       </div>
       <div className="footerIn footer3">
-        <div>
+        <div className="footer3about">
         <p className="footerLinksHead">About</p>
         <ul className="footerLinksList">
     <li className="footerLinksitems">About us</li>
@@ -67,7 +67,7 @@ steverogers@gmail.com            </div>
     
 </ul>
         </div>
-      <div>
+      <div className="footer3contact">
       <p className="footerLinksHead">Contact us</p>
         <ul className="footerLinksList">
     <li className="footerLinksitems">Whatsapp us <i class="fa-brands fa-whatsapp"></i></li>
